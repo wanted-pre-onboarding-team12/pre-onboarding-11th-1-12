@@ -16,7 +16,7 @@ const Todo = () => {
 
   const onGetToDos = async () => {
     const response = await getTodos();
-    setToDoList(response.data);
+    setToDoList(response);
   };
 
   const onCreateToDo = async (event: React.FormEvent<HTMLFormElement>) => {
