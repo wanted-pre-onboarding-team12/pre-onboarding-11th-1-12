@@ -16,9 +16,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-<<<<<<< HEAD
-  "include": ["src", "src/models"]
-=======
-  "include": ["src", "./declaration.d.ts"]
->>>>>>> main
+  "include": ["src", "./declaration.d.ts", "src/models"]
 }
