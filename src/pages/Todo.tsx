@@ -5,7 +5,6 @@ import { IconLemon } from '../assets';
 import TodoItem from '../components/TodoItem';
 import { createTodo, getTodos } from '../service/todo';
 
-
 const Todo = () => {
   const [toDoList, setToDoList] = useState<ITodoObject[]>();
   const [newToDo, setNewToDo] = useState('');
@@ -17,7 +16,7 @@ const Todo = () => {
 
   const onGetToDos = async () => {
     const response = await getTodos();
-    setToDoList(response.data);
+    setToDoList(response);
   };
 
   const onCreateToDo = async (event: React.FormEvent<HTMLFormElement>) => {
