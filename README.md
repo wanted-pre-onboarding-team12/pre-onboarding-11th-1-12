@@ -1,6 +1,6 @@
 ## 원티드 프리온보딩 프론트엔드 인턴십 - 1주차 과제
 
-- 배포링크 : https://tiny-sawine-0a08a4.netlify.app
+- 배포링크 : [바로가기](https://tiny-sawine-0a08a4.netlify.app/)
 - 과제 : 동료학습을 통해서 팀에서 생각한 원티드 프리온보딩 프론트엔드 인턴십 선발 과제의 **`Best Pratice`** 를 만들고 제출해주세요.
 
 <details>
@@ -29,9 +29,14 @@ $ npm start
 
 
 ## 토론
-
-- [주제 links]()
-- [주제 links]()
+- [협업 Tool 정리](https://github.com/wanted-pre-onboarding-team12/pre-onboarding-11th-1-12/discussions/31)
+- [Best Practice를 선정한 이유](https://github.com/wanted-pre-onboarding-team12/pre-onboarding-11th-1-12/discussions/4)
+- [Git-flow 정의](https://github.com/wanted-pre-onboarding-team12/pre-onboarding-11th-1-12/discussions/7)
+- [Best Practice 선정](https://github.com/wanted-pre-onboarding-team12/pre-onboarding-11th-1-12/discussions/5)
+- [Coding Conventions 정의](https://github.com/wanted-pre-onboarding-team12/pre-onboarding-11th-1-12/discussions/1)
+- [6/30 회의](https://github.com/wanted-pre-onboarding-team12/pre-onboarding-11th-1-12/discussions/18)
+- [6/29 회의](https://github.com/wanted-pre-onboarding-team12/pre-onboarding-11th-1-12/discussions/3)
+- [6/28 회의](https://github.com/wanted-pre-onboarding-team12/pre-onboarding-11th-1-12/discussions/2)
 
 
 ## 깃허브 활용 내용
@@ -77,12 +82,14 @@ Remove : 파일을 삭제하는 작업만 수행한 경우
 
 ## 폴더구조 
 
+- 프로젝트 규모를 고려하여 디렉토리/index 규칙 대신 유형별로 디렉토리를 분류하여 폴더구조화
+- React 컴포넌트 파일명을 파스칼 케이스로 작성
+
 <details>
 <summary>폴더구조</summary>
 <div markdown="1">
   
-```bash
-
+```
 📦 src
 ├── 📂 assets
 ├── 📂 components
@@ -140,13 +147,56 @@ Remove : 파일을 삭제하는 작업만 수행한 경우
 </div>
 </details>
 
-## Libraries
-- React 
-- TypeScript
-- SCSS
-- React Router
-- Axios 
-- Axios
+## 개발 툴  
+
+- 타입스크립트를 적용한 리액트로 개발
+- module.scss를 활용하여 컴포넌트별 스타일 관리
+- scss 변수, mixins 활용하여 자주 사용하는 스타일 재사용 
+- Eslint, Prettier, Husky 활용하여 코드 컨벤션&문법 확인 자동화 
+
+React|TypeScript|Scss|Eslint|Prettier|
+| :--: | :--: | :--: | :--: | :--: |
+| <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="react" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="sass" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="eslint" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" height="65" /> 
+
+
+<br>
+
+
+## 커뮤니케이션 툴 
+
+
+Notion|Github|Discord|
+| :--: | :--: | :--: |
+| <img alt="Notion logo" src="https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/shared/icons/notion-app-icon-3d.png" height="65" width="65">| <img alt="github logo" src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65">| <img alt="Discord logo" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/62595384e89d1d54d704ece7_3437c10597c1526c3dbd98c737c2bcae.svg" height="65" width="65"> |
+
+
+- Discord
+  - 채널을 개설하여 깃허브 레포지토리와 연결하여 커밋&풀리퀘스트 상태 공유
+  - 디스코드 화면공유 & 음성통화 활용
+
+- Github
+  - 깃허브를 통해 다수의 작업을 통합 관리
+  - Discussions를 통해 작업 방침(코딩 컨벤션 등), 팀원별 작업할 내용을 관리
+
+- Notion
+  - 동시에 다수가 편집/작성 가능한 노션을 통해 구술로 설명하기 힘든 부분을 노션에 작성함으로서 원활한 토론 진행
+  - 코드 블록이나 여러 항목의 비교 테이블표 등의 서식을 활용하여 빠른 의사결정
+
+
+
+
+<br>
+
+| 이름   | Github                     | 포지션 및 역할   |
+| ------ | ------------------------------- | ---------------- |
+| 나규태 | https://github.com/ncb6206      | FE               |
+| 박인우 | https://github.com/eatdrink0507 | FE               |
+| 주양아 | https://github.com/Yang-ah      | FE               |
+| 이찬영 | https://github.com/dokimion24   | FE               |
+| 최예희 | https://github.com/YaeheeChoe   | FE (사정상 불참) |
+| 김영건 | https://github.com/Goldenprevue | PL,FE            |
+
+<br>
 
 
 ## 데모 영상
@@ -181,5 +231,5 @@ Remove : 파일을 삭제하는 작업만 수행한 경우
 
 | 데모 영상                                                                                                                              | 기능                                                                                                                                   |
 | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width=600 src="https://github.com/wanted-pre-onboarding-team12/pre-onboarding-11th-1-12/assets/62326659/b62174da-1fc4-447e-a410-cd6db9b1d0a4" /> | · `TOKEN⭕️` : /signin, /signup 경로 접속 시 /todo 경로로 리다이렉트 <br> · `TOKEN❌` : /todo 경로로 접속 시 /signin 경로로 리다이렉트 |
+| <img width=600 src="https://github.com/wanted-pre-onboarding-team12/pre-onboarding-11th-1-12/assets/62326659/b62174da-1fc4-447e-a410-cd6db9b1d0a4" /> |Router에서 redirect 관리를 하여 깜빡임 에러를 해결하였습니다. <br> PrivateRouter컴포넌트에서 토큰의 존재 여부에 따라 사용자를 Redirect 시킵니다.<br><br> · `TOKEN⭕️` : /signin, /signup 경로 접속 시 /todo 경로로 리다이렉트 <br> · `TOKEN❌` : /todo 경로로 접속 시 /signin 경로로 리다이렉트 |
 
