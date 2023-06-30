@@ -73,9 +73,56 @@ Remove : 파일을 삭제하는 작업만 수행한 경우
 <summary>폴더구조</summary>
 <div markdown="1">
   
-```
-📂src
+```bash
 
+📦 src
+├── 📂 assets
+├── 📂 components
+│   ├── 📂 common
+│   │   ├── 📂 utils
+│   │   │   └── 📄 valid.js
+│   │   ├── 📄 Layout.tsx
+│   │   ├── 📄 Nav.tsx
+│   │   ├── 📄 layout.module.scss
+│   │   └── 📄 nav.module.scss
+│   ├── 📄 Modal.tsx
+│   ├── 📄 TodoItem.tsx
+│   ├── 📄 modal.module.scss
+│   └── 📄 todoItem.module.scss
+├── 📂 hooks
+│   └── 📄 useinput.ts
+├── 📂 models
+│   └── 📄 api.ts
+├── 📂 pages
+│   ├── 📄 Home.tsx
+│   ├── 📄 NotFound.tsx
+│   ├── 📄 SignIn.tsx
+│   ├── 📄 SignUp.tsx
+│   ├── 📄 Todo.tsx
+│   ├── 📄 auth.module.scss
+│   ├── 📄 home.module.scss
+│   └── 📄 todo.module.scss
+├── 📂 routes
+│   ├── 📄 PrivateRoute.tsx
+│   └── 📄 Router.tsx
+├── 📂 service
+│   ├── 📄 auth.ts
+│   ├── 📄 config.ts
+│   └── 📄 todo.ts
+├── 📂 styles
+│   ├── 📂 constants  
+│   ├── 📂 fonts/NanumSquareRound
+│   ├── 📂 mixins
+│   │   ├── 📄 _flexbox.scss
+│   │   ├── 📄 _index.scss
+│   │   └── 📄 _styles.scss
+│   ├── 📄 _base.scss
+│   ├── 📄 _fonts_face.scss
+│   ├── 📄 _index.scss
+│   ├── 📄 _reset.scss
+│   └── 📄 global.scss
+├── 📄 App.tsx
+└── 📄 index.tsx
 ```
 
 </div>
