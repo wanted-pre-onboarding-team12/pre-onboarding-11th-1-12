@@ -1,9 +1,9 @@
-import { PostTodo } from "../models/api";
-import instance from "./config";
+import { PostTodo } from '../models/api';
+import instance from './config';
 
 export const getTodos = async () => {
   try {
-    const response = await instance.get("/todos");
+    const response = await instance.get('/todos');
     return response.data;
   } catch (error) {
     console.log(error);
@@ -13,7 +13,7 @@ export const getTodos = async () => {
 
 export const createTodo = async (data: PostTodo) => {
   try {
-    const response = await instance.post("/todos", { data });
+    const response = await instance.post('/todos', data);
     return response.data;
   } catch (error) {
     console.log(error);

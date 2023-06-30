@@ -1,5 +1,5 @@
-@use "../styles/mixins" as m;
-@use "../styles/constants" as c;
+@use '../styles/mixins' as m;
+@use '../styles/constants' as c;
 
 .wrap {
   @include m.flex(flex-start);

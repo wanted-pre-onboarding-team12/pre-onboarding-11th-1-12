@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import styles from "./nav.module.scss";
-import { IconLemon } from "../../assets";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styles from './nav.module.scss';
+import { IconLemon } from '../../assets';
 
 const Nav = () => {
   const logout = () => localStorage.clear();

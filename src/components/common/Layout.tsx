@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./layout.module.scss";
-import { Link, Outlet } from "react-router-dom";
-import Nav from "./Nav";
-import { IconGithub } from "../../assets";
+import React from 'react';
+import styles from './layout.module.scss';
+import { Link, Outlet } from 'react-router-dom';
+import Nav from './Nav';
+import { IconGithub } from '../../assets';
 
 const Layout = () => {
   return (
