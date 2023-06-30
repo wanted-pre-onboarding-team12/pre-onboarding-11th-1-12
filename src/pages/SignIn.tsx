@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./auth.module.scss";
-import { Link } from "react-router-dom";
+import React from 'react';
+import styles from './auth.module.scss';
+import { Link } from 'react-router-dom';
 
 const SignIn = () => {
   return (
