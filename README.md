@@ -1,6 +1,6 @@
 ## 원티드 프리온보딩 프론트엔드 인턴십 - 1주차 과제
 
-- 배포링크 : [[바로가기]()](https://tiny-sawine-0a08a4.netlify.app)
+- 배포링크 : https://tiny-sawine-0a08a4.netlify.app
 - 과제 : 동료학습을 통해서 팀에서 생각한 원티드 프리온보딩 프론트엔드 인턴십 선발 과제의 **`Best Pratice`** 를 만들고 제출해주세요.
 
 <details>
