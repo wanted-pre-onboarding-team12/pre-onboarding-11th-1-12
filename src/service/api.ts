@@ -1,1 +1,1 @@
-export const api = "isolate 에러방지";
+export const api = 'isolate 에러방지';

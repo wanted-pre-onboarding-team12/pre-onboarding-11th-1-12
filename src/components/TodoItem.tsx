@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { IconCheck, IconLemon } from "../assets";
-import styles from "./todoItem.module.scss";
+import React, { useState } from 'react';
+import { IconCheck, IconLemon } from '../assets';
+import styles from './todoItem.module.scss';
 
 const TodoItem = () => {
   // NOTE: 수정모드 state에 따라 UI가 달라져서 state만 살려둘게요.

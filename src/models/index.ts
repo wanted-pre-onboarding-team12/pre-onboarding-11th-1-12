@@ -8,7 +8,7 @@ export type ToDo = {
   isCompleted: boolean;
 };
 
-export type OnlyToDo = Pick<ToDo, "todo">;
+export type OnlyToDo = Pick<ToDo, 'todo'>;
 
 export type ToDoObject = ToDo & {
   id: number;
