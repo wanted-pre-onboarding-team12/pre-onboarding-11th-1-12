@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import styles from './todo.module.scss';
 import { ITodoObject } from '../models/api';
-import { useNavigate } from 'react-router-dom';
 import { IconLemon } from '../assets';
 import TodoItem from '../components/TodoItem';
 import { createTodo, getTodos } from '../service/todo';
 
 const Todo = () => {
-  const navigate = useNavigate();
   const [toDoList, setToDoList] = useState<ITodoObject[]>();
   const [newToDo, setNewToDo] = useState('');
 
