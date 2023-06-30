@@ -13,7 +13,7 @@ export const getTodos = async () => {
 
 export const createTodo = async (data: PostTodo) => {
   try {
-    const response = await instance.post('/todos', { data });
+    const response = await instance.post('/todos', data);
     return response.data;
   } catch (error) {
     console.log(error);

@@ -5,7 +5,6 @@ import { IconLemon } from '../assets';
 import TodoItem from '../components/TodoItem';
 import { createTodo, getTodos } from '../service/todo';
 
-
 const Todo = () => {
   const [toDoList, setToDoList] = useState<ITodoObject[]>();
   const [newToDo, setNewToDo] = useState('');
