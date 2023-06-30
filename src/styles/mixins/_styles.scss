@@ -1,0 +1,15 @@
+@use "../constants" as c;
+
+@mixin button($borderRadius: 8px) {
+  padding: 12px;
+  color: white;
+  border-radius: $borderRadius;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: c.$C_PRIMARY;
+}
+
+@mixin title($fontSize: 48px) {
+  font-size: $fontSize;
+  color: c.$C_PRIMARY;
+}
