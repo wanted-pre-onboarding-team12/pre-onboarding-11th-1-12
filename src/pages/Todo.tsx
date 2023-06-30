@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './todo.module.scss';
 import { ITodoObject } from '../models/api';
 import { IconLemon } from '../assets';
@@ -30,6 +30,10 @@ const Todo = () => {
     onGetToDos();
     setNewToDo('');
   };
+
+  useEffect(() => {
+    onGetToDos();
+  }, []);
 
   return (
     <main className={styles.wrap}>
