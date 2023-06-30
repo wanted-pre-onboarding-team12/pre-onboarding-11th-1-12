@@ -131,12 +131,12 @@ Remove : 파일을 삭제하는 작업만 수행한 경우
 </div>
 </details>
 
-## Tools 
+## 개발 툴  
 
 - 타입스크립트를 적용한 리액트로 개발
 - module.scss를 활용하여 컴포넌트별 스타일 관리
-- scss 변수, mixins 활용하여 
-
+- scss 변수, mixins 활용하여 자주 사용하는 스타일 재사용 
+- Eslint, Prettier, Husky 활용하여 코드 컨벤션&문법 확인 자동화 
 
 React|TypeScript|Scss|Eslint|Prettier|
 | :--: | :--: | :--: | :--: | :--: |
@@ -146,12 +146,28 @@ React|TypeScript|Scss|Eslint|Prettier|
 <br>
 
 
-## Communication
+## 커뮤니케이션 툴 
+
+- Discord
+  - 채널을 개설하여 깃허브 레포지토리와 연결하여 커밋&풀리퀘스트 상태 공유
+  - 디스코드 화면공유 & 음성통화 활용
 
 Notion|Github|Discord|
 | :--: | :--: | :--: |
 | <img alt="Notion logo" src="https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/shared/icons/notion-app-icon-3d.png" height="65" width="65">| <img alt="github logo" src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65">| <img alt="Discord logo" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/62595384e89d1d54d704ece7_3437c10597c1526c3dbd98c737c2bcae.svg" height="65" width="65"> |
 
+
+
+<br>
+
+| 이름   | Github                     | 포지션 및 역할   |
+| ------ | ------------------------------- | ---------------- |
+| 나규태 | https://github.com/ncb6206      | FE               |
+| 박인우 | https://github.com/eatdrink0507 | FE               |
+| 주양아 | https://github.com/Yang-ah      | FE               |
+| 이찬영 | https://github.com/dokimion24   | FE               |
+| 최예희 | https://github.com/YaeheeChoe   | FE (사정상 불참) |
+| 김영건 | https://github.com/Goldenprevue | PL,FE            |
 
 <br>
 
