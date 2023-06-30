@@ -2,7 +2,7 @@ import styles from './auth.module.scss';
 import { Link, useNavigate } from 'react-router-dom';
 import useInput from '../hooks/useinput';
 import { signInUser } from '../service/auth';
-import { validEmail, validPassword } from '../components/common/utils/vaild';
+import { validEmail, validPassword } from '../components/common/utils/valid';
 
 const SignIn = () => {
   const navigate = useNavigate();
