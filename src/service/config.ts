@@ -3,7 +3,7 @@ import axios, {
   AxiosRequestConfig,
   AxiosRequestHeaders,
   AxiosError,
-} from "axios";
+} from 'axios';
 
 interface AdaptAxiosRequestConfig extends AxiosRequestConfig {
   headers: AxiosRequestHeaders;
@@ -16,7 +16,7 @@ const instance: AxiosInstance = axios.create({
 
 instance.interceptors.request.use(
   (config: AdaptAxiosRequestConfig) => {
-    const access_token = localStorage.getItem("access_token");
+    const access_token = localStorage.getItem('access_token');
     if (access_token) {
       config.headers.Authorization = `Bearer ${access_token}`;
     }
@@ -30,7 +30,7 @@ interface ErrorResponse {
   error: string;
 }
 instance.interceptors.response.use(
-  (response) => {
+  response => {
     return response;
   },
   (error: AxiosError) => {

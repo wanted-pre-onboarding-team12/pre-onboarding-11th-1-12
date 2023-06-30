@@ -1,9 +1,9 @@
-import { Route, Routes } from "react-router-dom";
-import SignIn from "../pages/SignIn";
-import SignUp from "../pages/SignUp";
-import Todo from "../pages/Todo";
-import NotFound from "../pages/NotFound";
-import Layout from "../components/common/Layout";
+import { Route, Routes } from 'react-router-dom';
+import SignIn from '../pages/SignIn';
+import SignUp from '../pages/SignUp';
+import Todo from '../pages/Todo';
+import NotFound from '../pages/NotFound';
+import Layout from '../components/common/Layout';
 function Router() {
   return (
     <Routes>
