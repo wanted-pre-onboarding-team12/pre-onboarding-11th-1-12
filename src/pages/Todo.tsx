@@ -1,8 +1,7 @@
-
-import React from "react";
-import styles from "./todo.module.scss";
-import TodoItem from "../components/TodoItem";
-import { IconCheck, IconLemon } from "../assets";
+import React from 'react';
+import styles from './todo.module.scss';
+import TodoItem from '../components/TodoItem';
+import { IconCheck, IconLemon } from '../assets';
 
 const Todo = () => {
   //  const [toDoList, setToDoList] = useState<ToDoObject[]>();
