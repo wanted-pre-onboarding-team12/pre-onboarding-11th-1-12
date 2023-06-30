@@ -2,7 +2,7 @@ import styles from './auth.module.scss';
 import { Link } from 'react-router-dom';
 import useInput from '../hooks/useinput';
 import { signUpUser } from '../service/auth';
-import { vaildEmail, validPassword } from '../components/common/utils/vaild';
+import { validEmail, validPassword } from '../components/common/utils/vaild';
 import { useNavigate } from 'react-router-dom';
 
 const SignUp = () => {
@@ -30,7 +30,7 @@ const SignUp = () => {
         <button
           type="submit"
           data-testid="signup-button"
-          disabled={!vaildEmail(email) || !validPassword(password)}
+          disabled={!validEmail(email) || !validPassword(password)}
           onClick={async e => {
             e.preventDefault();
             await signUpUser({ email: email, password: password });
