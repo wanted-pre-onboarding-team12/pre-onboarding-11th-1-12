@@ -1,0 +1,60 @@
+@use "../styles/mixins" as m;
+@use "../styles/constants" as c;
+
+.wrap {
+  @include m.flex(center, center, column);
+  height: 90%;
+
+  > h1 {
+    @include m.title();
+    margin-bottom: 8px;
+  }
+  > p {
+    @include m.flex();
+    svg {
+      width: 12px;
+      margin: 0 2px;
+      fill: c.$C_PRIMARY;
+    }
+  }
+  > ul {
+    width: 400px;
+    height: 380px;
+    overflow-y: scroll;
+  }
+}
+
+.form {
+  @include m.flex(space-between);
+  width: 400px;
+  height: 40px;
+  padding: 8px 4px;
+  background-color: c.$C_LIGHT_GREY;
+  overflow: hidden;
+  margin: 40px 0 20px;
+  border-radius: 20px;
+
+  > input {
+    width: 90%;
+    height: 100%;
+    padding: 0 12px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+  }
+
+  > button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: c.$C_PRIMARY;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+
+    &:disabled {
+      background-color: c.$C_GREY;
+      cursor: auto;
+    }
+  }
+}
