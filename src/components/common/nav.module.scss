@@ -1,0 +1,26 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/constants" as c;
+
+.wrap {
+  @include m.flex(space-between);
+  width: 100%;
+
+  > .left,
+  .right {
+    @include m.flex();
+  }
+
+  a {
+    @include m.flex();
+    padding: 4px;
+    font-size: 16px;
+    color: c.$C_BLACK;
+  }
+
+  svg {
+    fill: c.$C_PRIMARY;
+    width: 20px;
+    height: 20px;
+    margin: 0 16px 2px 0;
+  }
+}
