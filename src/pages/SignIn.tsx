@@ -2,7 +2,7 @@ import styles from './auth.module.scss';
 import { Link, useNavigate } from 'react-router-dom';
 import useInput from '../hooks/useinput';
 import { signInUser } from '../service/auth';
-import { vaildEmail, validPassword } from '../components/common/utils/vaild';
+import { validEmail, validPassword } from '../components/common/utils/vaild';
 
 const SignIn = () => {
   const navigate = useNavigate();
@@ -37,7 +37,7 @@ const SignIn = () => {
         <button
           type="submit"
           data-testid="signin-button"
-          disabled={!vaildEmail(email) || !validPassword(password)}
+          disabled={!validEmail(email) || !validPassword(password)}
         >
           로그인
         </button>
