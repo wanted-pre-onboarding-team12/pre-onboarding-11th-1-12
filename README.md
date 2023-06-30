@@ -1,6 +1,6 @@
 ## 원티드 프리온보딩 프론트엔드 인턴십 - 1주차 과제
 
-- 배포링크 : [바로가기]()
+- 배포링크 : [바로가기](https://tiny-sawine-0a08a4.netlify.app/)
 - 과제 : 동료학습을 통해서 팀에서 생각한 원티드 프리온보딩 프론트엔드 인턴십 선발 과제의 **`Best Pratice`** 를 만들고 제출해주세요.
 
 <details>
@@ -75,7 +75,53 @@ Remove : 파일을 삭제하는 작업만 수행한 경우
   
 ```
 📂src
-
+├── 📂 assets
+├── 📂 components
+│   ├── 📂 common
+│   │   ├── 📂 utils
+│   │   │   └── 📄 valid.js
+│   │   ├── 📄 Layout.tsx
+│   │   ├── 📄 Nav.tsx
+│   │   ├── 📄 layout.module.scss
+│   │   └── 📄 nav.module.scss
+│   ├── 📄 Modal.tsx
+│   ├── 📄 TodoItem.tsx
+│   ├── 📄 modal.module.scss
+│   └── 📄 todoItem.module.scss
+├── 📂 hooks
+│   └── 📄 useinput.ts
+├── 📂 models
+│   └── 📄 api.ts
+├── 📂 pages
+│   ├── 📄 Home.tsx
+│   ├── 📄 NotFound.tsx
+│   ├── 📄 SignIn.tsx
+│   ├── 📄 SignUp.tsx
+│   ├── 📄 Todo.tsx
+│   ├── 📄 auth.module.scss
+│   ├── 📄 home.module.scss
+│   └── 📄 todo.module.scss
+├── 📂 routes
+│   ├── 📄 PrivateRoute.tsx
+│   └── 📄 Router.tsx
+├── 📂 service
+│   ├── 📄 auth.ts
+│   ├── 📄 config.ts
+│   └── 📄 todo.ts
+├── 📂 styles
+│   ├── 📂 constants  
+│   ├── 📂 fonts/NanumSquareRound
+│   ├── 📂 mixins
+│   │   ├── 📄 _flexbox.scss
+│   │   ├── 📄 _index.scss
+│   │   └── 📄 _styles.scss
+│   ├── 📄 _base.scss
+│   ├── 📄 _fonts_face.scss
+│   ├── 📄 _index.scss
+│   ├── 📄 _reset.scss
+│   └── 📄 global.scss
+├── 📄 App.tsx
+└── 📄 index.tsx
 ```
 
 </div>
@@ -85,13 +131,29 @@ Remove : 파일을 삭제하는 작업만 수행한 경우
 </div>
 </details>
 
-## Libraries
-- React 
-- TypeScript
-- SCSS
-- React Router
-- Axios 
-- Axios
+## Tools 
+
+- 타입스크립트를 적용한 리액트로 개발
+- module.scss를 활용하여 컴포넌트별 스타일 관리
+- scss 변수, mixins 활용하여 
+
+
+React|TypeScript|Scss|Eslint|Prettier|
+| :--: | :--: | :--: | :--: | :--: |
+| <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="react" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="sass" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="eslint" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" height="65" /> 
+
+
+<br>
+
+
+## Communication
+
+Notion|Github|Discord|
+| :--: | :--: | :--: |
+| <img alt="Notion logo" src="https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/shared/icons/notion-app-icon-3d.png" height="65" width="65">| <img alt="github logo" src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65">| <img alt="Discord logo" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/62595384e89d1d54d704ece7_3437c10597c1526c3dbd98c737c2bcae.svg" height="65" width="65"> |
+
+
+<br>
 
 
 ## 데모 영상
@@ -126,5 +188,5 @@ Remove : 파일을 삭제하는 작업만 수행한 경우
 
 | 데모 영상                                                                                                                              | 기능                                                                                                                                   |
 | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width=600 src="https://github.com/Yang-ah/wanted-pre-onboarding-frontend/assets/97151214/f543d05d-0a44-4fce-8ace-bfbe9eea9ea2" /> | · `TOKEN⭕️` : /signin, /signup 경로 접속 시 /todo 경로로 리다이렉트 <br> · `TOKEN❌` : /todo 경로로 접속 시 /signin 경로로 리다이렉트 |
+| <img width=600 src="https://github.com/Yang-ah/wanted-pre-onboarding-frontend/assets/97151214/f543d05d-0a44-4fce-8ace-bfbe9eea9ea2" /> | Router에서 redirect 관리를 하여 깜빡임 에러를 해결하였습니다. `PrivateRouter`컴포넌트에서 토큰의 존재 여부에 따라 사용자를 Redirect 시킵니다. <br><br>· `TOKEN⭕️` : /signin, /signup 경로 접속 시 /todo 경로로 리다이렉트 <br> · `TOKEN❌` : /todo 경로로 접속 시 /signin 경로로 리다이렉트 |
 
